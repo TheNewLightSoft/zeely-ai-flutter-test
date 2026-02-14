@@ -44,7 +44,7 @@ class FilterChipButton extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 if (isIconOnly) ...[
-                  SvgPicture.asset(Assets.svg.close, height: 24.h),
+                  SvgPicture.asset(Assets.svg.close, width: 24.w),
                 ] else ...[
                   Text(
                     text!,
