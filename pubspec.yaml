@@ -1,0 +1,47 @@
+name: zeely_ai_test_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  get: ^4.7.3
+  get_event_bus: ^1.0.0
+  json_annotation: ^4.10.0
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.2.3
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  json_serializable: ^6.10.0
+  build_runner: ^2.11.1
+  # dart run build_runner build --delete-conflicting-outputs
+  flutter_gen_runner: ^5.5.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/images/
+    - assets/svg/
+
+  fonts:
+    - family: ItalianPlateNo2Expanded
+      fonts:
+        - asset: assets/fonts/ItalianPlateNo2Expanded.ttf
