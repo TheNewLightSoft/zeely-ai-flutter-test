@@ -60,7 +60,8 @@ class GetStartedPage extends StatelessWidget {
                 ),
               ),
             ),
-            Center(
+            Align(
+              alignment: Alignment(0, 0.1),
               child: SizedBox(
                 height: 63.h,
                 child: FilledButton(
